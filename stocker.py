@@ -20,7 +20,7 @@ class Stocker:
     def __init__(self, ticker, exchange="WIKI"):
 
         # Enforce capitalization
-        ticker = ticker.str.upper()
+        #ticker = ticker.upper()
 
         # Symbol is used for labeling plots
         self.symbol = ticker
